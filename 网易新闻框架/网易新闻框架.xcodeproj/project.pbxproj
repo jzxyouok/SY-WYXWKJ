@@ -15,6 +15,12 @@
 		4ECCB9DF1CF4DABC00155A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECCB9DD1CF4DABC00155A67 /* LaunchScreen.storyboard */; };
 		4ECCB9EA1CF4DABC00155A67 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCB9E91CF4DABC00155A67 /* ______Tests.m */; };
 		4ECCB9F51CF4DABC00155A67 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCB9F41CF4DABC00155A67 /* ______UITests.m */; };
+		4ECCBA311CF4DE3200155A67 /* SYHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA301CF4DE3200155A67 /* SYHotViewController.m */; };
+		4ECCBA341CF4DE4400155A67 /* SYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA331CF4DE4400155A67 /* SYVideoViewController.m */; };
+		4ECCBA371CF4DE5300155A67 /* SYReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA361CF4DE5300155A67 /* SYReaderViewController.m */; };
+		4ECCBA3A1CF4DE6100155A67 /* SYScienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA391CF4DE6100155A67 /* SYScienceViewController.m */; };
+		4ECCBA3D1CF4DE6F00155A67 /* SYScoletyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA3C1CF4DE6F00155A67 /* SYScoletyViewController.m */; };
+		4ECCBA401CF4DE7D00155A67 /* SYToplineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCBA3F1CF4DE7D00155A67 /* SYToplineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		4ECCB9F01CF4DABC00155A67 /* 网易新闻框架UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易新闻框架UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECCB9F41CF4DABC00155A67 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		4ECCB9F61CF4DABC00155A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECCBA2F1CF4DE3200155A67 /* SYHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotViewController.h; sourceTree = "<group>"; };
+		4ECCBA301CF4DE3200155A67 /* SYHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHotViewController.m; sourceTree = "<group>"; };
+		4ECCBA321CF4DE4400155A67 /* SYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYVideoViewController.h; sourceTree = "<group>"; };
+		4ECCBA331CF4DE4400155A67 /* SYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYVideoViewController.m; sourceTree = "<group>"; };
+		4ECCBA351CF4DE5300155A67 /* SYReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYReaderViewController.h; sourceTree = "<group>"; };
+		4ECCBA361CF4DE5300155A67 /* SYReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYReaderViewController.m; sourceTree = "<group>"; };
+		4ECCBA381CF4DE6100155A67 /* SYScienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYScienceViewController.h; sourceTree = "<group>"; };
+		4ECCBA391CF4DE6100155A67 /* SYScienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYScienceViewController.m; sourceTree = "<group>"; };
+		4ECCBA3B1CF4DE6F00155A67 /* SYScoletyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYScoletyViewController.h; sourceTree = "<group>"; };
+		4ECCBA3C1CF4DE6F00155A67 /* SYScoletyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYScoletyViewController.m; sourceTree = "<group>"; };
+		4ECCBA3E1CF4DE7D00155A67 /* SYToplineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYToplineViewController.h; sourceTree = "<group>"; };
+		4ECCBA3F1CF4DE7D00155A67 /* SYToplineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYToplineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,18 @@
 				4ECCB9DB1CF4DABC00155A67 /* Assets.xcassets */,
 				4ECCB9DD1CF4DABC00155A67 /* LaunchScreen.storyboard */,
 				4ECCB9E01CF4DABC00155A67 /* Info.plist */,
+				4ECCBA2F1CF4DE3200155A67 /* SYHotViewController.h */,
+				4ECCBA301CF4DE3200155A67 /* SYHotViewController.m */,
+				4ECCBA321CF4DE4400155A67 /* SYVideoViewController.h */,
+				4ECCBA331CF4DE4400155A67 /* SYVideoViewController.m */,
+				4ECCBA351CF4DE5300155A67 /* SYReaderViewController.h */,
+				4ECCBA361CF4DE5300155A67 /* SYReaderViewController.m */,
+				4ECCBA381CF4DE6100155A67 /* SYScienceViewController.h */,
+				4ECCBA391CF4DE6100155A67 /* SYScienceViewController.m */,
+				4ECCBA3B1CF4DE6F00155A67 /* SYScoletyViewController.h */,
+				4ECCBA3C1CF4DE6F00155A67 /* SYScoletyViewController.m */,
+				4ECCBA3E1CF4DE7D00155A67 /* SYToplineViewController.h */,
+				4ECCBA3F1CF4DE7D00155A67 /* SYToplineViewController.m */,
 				4ECCB9CF1CF4DABC00155A67 /* Supporting Files */,
 			);
 			path = "网易新闻框架";
@@ -272,6 +302,12 @@
 			files = (
 				4ECCB9D71CF4DABC00155A67 /* ViewController.m in Sources */,
 				4ECCB9D41CF4DABC00155A67 /* AppDelegate.m in Sources */,
+				4ECCBA3D1CF4DE6F00155A67 /* SYScoletyViewController.m in Sources */,
+				4ECCBA3A1CF4DE6100155A67 /* SYScienceViewController.m in Sources */,
+				4ECCBA341CF4DE4400155A67 /* SYVideoViewController.m in Sources */,
+				4ECCBA401CF4DE7D00155A67 /* SYToplineViewController.m in Sources */,
+				4ECCBA371CF4DE5300155A67 /* SYReaderViewController.m in Sources */,
+				4ECCBA311CF4DE3200155A67 /* SYHotViewController.m in Sources */,
 				4ECCB9D11CF4DABC00155A67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +534,7 @@
 				4ECCB9FB1CF4DABC00155A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ECCB9FC1CF4DABC00155A67 /* Build configuration list for PBXNativeTarget "网易新闻框架Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				4ECCB9FE1CF4DABC00155A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ECCB9FF1CF4DABC00155A67 /* Build configuration list for PBXNativeTarget "网易新闻框架UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				4ECCBA011CF4DABC00155A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
