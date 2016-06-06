@@ -132,8 +132,6 @@
     [_selBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     
-    
-    
     //选中按钮居中
     //选中的按钮的中心点减去屏幕宽度的一半就是要移动的距离
     CGFloat offsetX = button.center.x - SYScreenW * 0.5;
@@ -149,7 +147,10 @@
     }
     //设置动画
     [self.titleScroll setContentOffset:CGPointMake(offsetX, 0) animated:YES];
-    button.transform = CGAffineTransformMakeScale(1.2, 1.2);
+    // 设置标题缩放
+    button.transform = CGAffineTransformMakeScale(1.3, 1.3);
+
+    
     
     _selBtn = button;
 }
